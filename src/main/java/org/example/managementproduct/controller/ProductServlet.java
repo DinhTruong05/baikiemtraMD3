@@ -142,7 +142,7 @@ public class ProductServlet extends HttpServlet {
             }
             if (errorMsg != null) {
                 req.setAttribute("errorMsg", errorMsg);
-                req.getRequestDispatcher("/view/productadd.jsp").forward(req, resp);
+                req.getRequestDispatcher("/view/addProduct.jsp").forward(req, resp);
                 return;
             }
 
